@@ -1,12 +1,14 @@
-<!--Main Navigation-->
- 
-      #intro {
-        background-image: url("./img/nodos.jpg");
+
+       #intro {
+        background-image: url("./img/FONDO3.jpg");
         height: 100vh;
       }
 
-      
-
-      .navbar .nav-link {
-        color: #fff !important;
+      /* Altura para dispositivos de más de 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
       }
+
+      
