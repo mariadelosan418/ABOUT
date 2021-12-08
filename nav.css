@@ -1,0 +1,12 @@
+<!--Main Navigation-->
+ 
+      #intro {
+        background-image: url("./img/nodos.jpg");
+        height: 100vh;
+      }
+
+      
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
