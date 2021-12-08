@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
   </head>
-<body >
+<body class="calContainer">
       <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--Main Navigation-->
@@ -27,14 +27,14 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
         <div class="container-fluid">
+          
           <!-- Navbar brand -->
           <a class="navbar-brand nav-link" href="index.html" id="home">
           <strong>ABOUT</strong></a>
-          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
+          <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               
               <li class="nav-item">
@@ -69,14 +69,15 @@
           </div>
         </nav>
 
-</body> <!-- Background image -->
+
+ <!-- Background image -->
      <div id="intro" class="bg-image shadow-2-strong">
       <!--<div class="mask" style="background-color: rgba(94, 9, 253, 0.945);">-->
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
           <div class="text-white">
             <h2 class="mb-3">Maria de Los Angeles Cott</h2>
             <h5 class="mb-4">Frontend Developer</h5>
-            <a class="btn btn-primary btn-lg m-2" href="  https://github.com/mariadelosan418?tab=repositories" role="button"
+            <a class="btn btn-outline-primary text-white btn-lg m-2" href="  https://github.com/mariadelosan418?tab=repositories" role="button"
               rel="nofollow" target="_blank">Mi Repositorio</a>
               <a class="btn btn-outline-primary  text-white btn-lg m-2" href=" "role="button"
               rel="nofollow" target="_blank">Descargar cv</a>
@@ -248,6 +249,24 @@
   
     </div>
   </main>
+  <footer class="bg-light text-lg-start">
+    <h3 class="text-center">Contacto</h3>
+  <div id="contact" class="text-center py-4 align-items-center">
+    <p>Redes Sociales</p>
+  
+    <a href=" https://www.linkedin.com/in/maria-de-los-angeles-cott-0aa825219 " class="btn btn-primary m-1" role="button" rel="nofollow"
+      target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    
+    <a href="  https://github.com/mariadelosan418" class="btn btn-primary m-1" role="button" rel="nofollow"
+      target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="#home" class="move-scroll btn btn-primary m-1" role="button" rel="nofollow" >
+      <i class="fas fa-home"></i>
+    </a>
+  </div>
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     &copy; 2021  Copyright:
@@ -260,5 +279,8 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript" src="js/script.js"></script>
+  <!--para cargar Biblioteca ALOJADAS EN googleapis-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
